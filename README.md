@@ -10,10 +10,10 @@ Testnets allows for offline development.
 In order to set up a testnet, you will need to use the following skills/tools we learned in class:
 
 
-Puppeth, to generate your genesis block.
+* Puppeth, to generate your genesis block.
 
 
-Geth, a command-line tool, to create keys, initialize nodes, and connect the nodes together.
+* Geth, a command-line tool, to create keys, initialize nodes, and connect the nodes together.
 
 
-The Clique Proof of Authority algorithm.
+* The Clique Proof of Authority algorithm.
