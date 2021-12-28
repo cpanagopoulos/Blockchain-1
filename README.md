@@ -1,5 +1,5 @@
-## Blockchain-1
-# Background
+# Blockchain-1
+## Background
 You have just landed a new job at ZBank, a small, innovative bank that is interested in exploring what
 blockchain technology can do for them and their customers.
 Your first project at the company is to set up a private testnet that you and your team of developers
