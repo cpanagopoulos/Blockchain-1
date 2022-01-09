@@ -34,3 +34,17 @@ there is no real money involved, which will give your team of developers the fre
   Nodes should be run in different terminal windows with the commands.
 
   NOTE: Type your password and hit enter even if you can not see it visually.
+  
+5. Open two separate terminal windows, one for each node.
+  * In the first terminal copy and paste node1 ./geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --http --allow-insecure-unlock
+  * Once prompted, enter your password. As the first node is running, enter node2 in the second terminal window ./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+  * NOTE: you will need to grab the complete enode address from terminal one inorder to update the node2 line before completing step 2
+  * Once the nodes are running successfully, open the MyCrypto app to send a tx!
+
+6. Once the MyCrypto app loads, you will need to change the network setting before sending a transaction:
+  * Click _Change Network_ at the bottom left of the app, and select _+ Add Custom Node_ and fill out the fields asssociated with your network
+
+7. Now you will need to open your node address to send a tx:
+  * you will get a prompt that says you are sending yourself a transaction. This is OK as we are testing the process.
+
+8. Once completed you should receive a green banner at the bottom of the app confirming the transaction was successfully sent.
