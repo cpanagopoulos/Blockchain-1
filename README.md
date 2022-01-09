@@ -24,12 +24,16 @@ there is no real money involved, which will give your team of developers the fre
 * Paste both account addresses from step 1 at a time into the lists of accounts to seal (make sure to remove 0X from account adresses).
 * Paste the same addresses in the list of accounts to prefund. And because they are no blowck rewards in POA, you'll need to pre-fund.
 * Complete the rest of the prompts (hitting enter).
+* ![block creation](https://github.com/cpanagopoulos/Blockchain-1/blob/main/Screenshots/puppeth-block-setup.PNG)
 * Once back at the main menu choose the " Manage existing Genesis" option.
 * Export configurations. This will faill to create two of the files, but only one is needed "smbank.json".
 
-3. After completing the genesis block creation, we will initialize the nodes with the genesis' json file previously created.
 
-4. Nodes can be used to begin mining blocks.
+3. After completing the genesis block creation, we will initialize the nodes with the genesis' json file previously created.
+  * ![Node1](https://github.com/cpanagopoulos/Blockchain-1/blob/main/Screenshots/node-1-creation.PNG)
+  * ![Node2](https://github.com/cpanagopoulos/Blockchain-1/blob/main/Screenshots/node-2-creation.PNG)
+
+5. Nodes can be used to begin mining blocks.
 
   Nodes should be run in different terminal windows with the commands.
 
@@ -42,7 +46,8 @@ there is no real money involved, which will give your team of developers the fre
   * Once the nodes are running successfully, open the MyCrypto app to send a tx!
 
 6. Once the MyCrypto app loads, you will need to change the network setting before sending a transaction:
-  * Click _Change Network_ at the bottom left of the app, and select _+ Add Custom Node_ and fill out the fields asssociated with your network
+  * Click _Change Network_ at the bottom left of the app, and select _+ Add Custom Node_ and fill out the fields asssociated with your network.
+  * NOTE: you will need to update the Network to _Custom_ in order to test on your network. If you don't remember your Chain ID, you can find it in the JSON file previously         created.
 
 7. Now you will need to open your node address to send a tx:
   * you will get a prompt that says you are sending yourself a transaction. This is OK as we are testing the process.
